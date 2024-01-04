@@ -1,3 +1,0 @@
-Privacy Policy
-
-The app does only store high-scores on device and doesn't share any data.
