@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B11B66E72B4426AA00AAC8A2 /* Catch The Apple Game.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B11B66E62B4426AA00AAC8A2 /* Catch The Apple Game.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B11B66E72B4426AA00AAC8A2 /* Catch The Fruit Game.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B11B66E62B4426AA00AAC8A2 /* Catch The Fruit Game.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B11B66EC2B4426AA00AAC8A2 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B66EB2B4426AA00AAC8A2 /* App.swift */; };
 		B11B66EE2B4426AA00AAC8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B66ED2B4426AA00AAC8A2 /* ContentView.swift */; };
 		B11B66F02B4426AB00AAC8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11B66EF2B4426AB00AAC8A2 /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 			containerPortal = B11B66DA2B4426A900AAC8A2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B11B66E52B4426AA00AAC8A2;
-			remoteInfo = "CatchTheApple Watch App";
+			remoteInfo = "CatchTheFruit Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,7 +35,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				B11B66E72B4426AA00AAC8A2 /* Catch The Apple Game.app in Embed Watch Content */,
+				B11B66E72B4426AA00AAC8A2 /* Catch The Fruit Game.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,8 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B11B66E02B4426AA00AAC8A2 /* CatchTheApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B11B66E62B4426AA00AAC8A2 /* Catch The Apple Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch The Apple Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11B66E02B4426AA00AAC8A2 /* CatchTheFruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheFruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11B66E62B4426AA00AAC8A2 /* Catch The Fruit Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch The Fruit Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11B66EB2B4426AA00AAC8A2 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		B11B66ED2B4426AA00AAC8A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B11B66EF2B4426AB00AAC8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		B11B66D92B4426A900AAC8A2 = {
 			isa = PBXGroup;
 			children = (
-				B11B66EA2B4426AA00AAC8A2 /* CatchTheApple Watch App */,
+				B11B66EA2B4426AA00AAC8A2 /* CatchTheFruit Watch App */,
 				B11B66E12B4426AA00AAC8A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,13 +77,13 @@
 		B11B66E12B4426AA00AAC8A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B11B66E02B4426AA00AAC8A2 /* CatchTheApple.app */,
-				B11B66E62B4426AA00AAC8A2 /* Catch The Apple Game.app */,
+				B11B66E02B4426AA00AAC8A2 /* CatchTheFruit.app */,
+				B11B66E62B4426AA00AAC8A2 /* Catch The Fruit Game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B11B66EA2B4426AA00AAC8A2 /* CatchTheApple Watch App */ = {
+		B11B66EA2B4426AA00AAC8A2 /* CatchTheFruit Watch App */ = {
 			isa = PBXGroup;
 			children = (
 				B12338F92B47522E00D496CA /* Data */,
@@ -92,7 +92,7 @@
 				B11B66EB2B4426AA00AAC8A2 /* App.swift */,
 				B11B66EF2B4426AB00AAC8A2 /* Assets.xcassets */,
 			);
-			path = "CatchTheApple Watch App";
+			path = "CatchTheFruit Watch App";
 			sourceTree = "<group>";
 		};
 		B11B66F12B4426AB00AAC8A2 /* Preview Content */ = {
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B11B66DF2B4426A900AAC8A2 /* CatchTheApple */ = {
+		B11B66DF2B4426A900AAC8A2 /* CatchTheFruit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B11B66FA2B4426AB00AAC8A2 /* Build configuration list for PBXNativeTarget "CatchTheApple" */;
+			buildConfigurationList = B11B66FA2B4426AB00AAC8A2 /* Build configuration list for PBXNativeTarget "CatchTheFruit" */;
 			buildPhases = (
 				B11B66DE2B4426A900AAC8A2 /* Resources */,
 				B11B66F92B4426AB00AAC8A2 /* Embed Watch Content */,
@@ -137,14 +137,14 @@
 			dependencies = (
 				B11B66E92B4426AA00AAC8A2 /* PBXTargetDependency */,
 			);
-			name = CatchTheApple;
-			productName = CatchTheApple;
-			productReference = B11B66E02B4426AA00AAC8A2 /* CatchTheApple.app */;
+			name = CatchTheFruit;
+			productName = CatchTheFruit;
+			productReference = B11B66E02B4426AA00AAC8A2 /* CatchTheFruit.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		B11B66E52B4426AA00AAC8A2 /* CatchTheApple Watch App */ = {
+		B11B66E52B4426AA00AAC8A2 /* CatchTheFruit Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B11B66F62B4426AB00AAC8A2 /* Build configuration list for PBXNativeTarget "CatchTheApple Watch App" */;
+			buildConfigurationList = B11B66F62B4426AB00AAC8A2 /* Build configuration list for PBXNativeTarget "CatchTheFruit Watch App" */;
 			buildPhases = (
 				B11B66E22B4426AA00AAC8A2 /* Sources */,
 				B11B66E32B4426AA00AAC8A2 /* Frameworks */,
@@ -154,9 +154,9 @@
 			);
 			dependencies = (
 			);
-			name = "CatchTheApple Watch App";
-			productName = "CatchTheApple Watch App";
-			productReference = B11B66E62B4426AA00AAC8A2 /* Catch The Apple Game.app */;
+			name = "CatchTheFruit Watch App";
+			productName = "CatchTheFruit Watch App";
+			productReference = B11B66E62B4426AA00AAC8A2 /* Catch The Fruit Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B11B66DD2B4426A900AAC8A2 /* Build configuration list for PBXProject "CatchTheApple" */;
+			buildConfigurationList = B11B66DD2B4426A900AAC8A2 /* Build configuration list for PBXProject "CatchTheFruit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,8 +190,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B11B66DF2B4426A900AAC8A2 /* CatchTheApple */,
-				B11B66E52B4426AA00AAC8A2 /* CatchTheApple Watch App */,
+				B11B66DF2B4426A900AAC8A2 /* CatchTheFruit */,
+				B11B66E52B4426AA00AAC8A2 /* CatchTheFruit Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +234,7 @@
 /* Begin PBXTargetDependency section */
 		B11B66E92B4426AA00AAC8A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B11B66E52B4426AA00AAC8A2 /* CatchTheApple Watch App */;
+			target = B11B66E52B4426AA00AAC8A2 /* CatchTheFruit Watch App */;
 			targetProxy = B11B66E82B4426AA00AAC8A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -361,7 +361,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatchTheApple Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CatchTheFruit Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = T6Y826PCAK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -372,8 +372,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.paulober.CatchTheApple.watchkitapp;
-				PRODUCT_NAME = "Catch The Apple Game";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.paulober.CatchTheFruit.watchkitapp;
+				PRODUCT_NAME = "Catch The Fruit Game";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -390,7 +390,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatchTheApple Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CatchTheFruit Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = T6Y826PCAK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -401,8 +401,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.paulober.CatchTheApple.watchkitapp;
-				PRODUCT_NAME = "Catch The Apple Game";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.paulober.CatchTheFruit.watchkitapp;
+				PRODUCT_NAME = "Catch The Fruit Game";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -420,10 +420,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T6Y826PCAK;
-				INFOPLIST_KEY_CFBundleDisplayName = CatchTheApple;
+				INFOPLIST_KEY_CFBundleDisplayName = CatchTheFruit;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.paulober.CatchTheApple;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.paulober.CatchTheFruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -437,10 +437,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T6Y826PCAK;
-				INFOPLIST_KEY_CFBundleDisplayName = CatchTheApple;
+				INFOPLIST_KEY_CFBundleDisplayName = CatchTheFruit;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.paulober.CatchTheApple;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.paulober.CatchTheFruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -451,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B11B66DD2B4426A900AAC8A2 /* Build configuration list for PBXProject "CatchTheApple" */ = {
+		B11B66DD2B4426A900AAC8A2 /* Build configuration list for PBXProject "CatchTheFruit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B11B66F42B4426AB00AAC8A2 /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B11B66F62B4426AB00AAC8A2 /* Build configuration list for PBXNativeTarget "CatchTheApple Watch App" */ = {
+		B11B66F62B4426AB00AAC8A2 /* Build configuration list for PBXNativeTarget "CatchTheFruit Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B11B66F72B4426AB00AAC8A2 /* Debug */,
@@ -469,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B11B66FA2B4426AB00AAC8A2 /* Build configuration list for PBXNativeTarget "CatchTheApple" */ = {
+		B11B66FA2B4426AB00AAC8A2 /* Build configuration list for PBXNativeTarget "CatchTheFruit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B11B66FB2B4426AB00AAC8A2 /* Debug */,
